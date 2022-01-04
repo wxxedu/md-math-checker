@@ -106,5 +106,8 @@ export module MathChecker {
         return true;
       }
     }
+    checkInMath(): boolean {
+      return this.checkInlineMath() || this.checkBlockMath();
+    }
   }
 }
