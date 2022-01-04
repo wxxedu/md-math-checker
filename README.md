@@ -1,5 +1,7 @@
-# typescript-module-template 
+# MD Math Checker
 
-A template for TypesScript classes, with the `jest` testing framework already included.
+## TODO
 
-To use this, just click on "Use this template" above. Class files will go to the `src` directory, tests to the `src/__tests__` diretory.
+## Why
+
+I wanted to create a plugin for [Obsidian](https://obsidian.md/) that checks if you are in a math environment, and if so, changes your input into English. Hence, I needed a way to accurately determine whether if you are in a math environment.
